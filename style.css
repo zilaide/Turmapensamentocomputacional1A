@@ -1,9 +1,23 @@
+header{
+  background-color: rgb(127, 31, 172);
+}
 body{
-    background-color: indianred;
+    background-color: rgb(203, 129, 221);
 }
 .titulo-centralizado {
   text-align: center;
 } 
 .titulo-centralizado {
   text-align: center;
+}
+nav li {
+  display: inline;
+  margin: 0 0 0 15px;
+}
+nav a {
+  text-transform: uppercase;
+  color: #000;;
+  font-weight: bold;
+  font-size: 22px ;
+  text-decoration: none;
 }
